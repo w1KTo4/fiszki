@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/w1KTo4/fiszki",
+  "homepage": "https://w1KTo4.github.io/fiszki",
   "name": "gra_edukacyjna",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
   "dependencies": {
