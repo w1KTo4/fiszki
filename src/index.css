@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #e6e9f0;
+    color: #222;
+}
+
+.kontener {
+    display: flex;
+    height: 100vh;
+}
+
+/* Lewy panel (ustawienia) */
+.lewy {
+    width: 25%;
+    background-color: #f8f9fc;
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lewy h1 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.lewy p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Przyciski kolorów */
+.przyciski {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.przycisk2 {
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.przycisk2:hover {
+    transform: scale(1.1);
+}
+
+/* Kolory przycisków */
+button[onclick*="Indigo"] { background-color: indigo; }
+button[onclick*="Aqua"] { background-color: teal; }
+button[onclick*="Green"] { background-color: green; }
+
+/* Timer i start */
+.Timer {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.start {
+    border: none;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 80%;
+    height: 60px;
+    transition: 0.3s;
+}
+
+.start:hover {
+    background-color: limegreen;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Prawy panel (fiszki) */
+.prawy { width: 80%; padding: 20px; display: flex; flex-wrap: wrap; }
+
+.fiszka{ background-color: white; border-style: solid; border-width: 4px; border-color: blue; width: 20%; height: 25%; margin-left: 60px; border-radius: 8%; display: flex; align-items: center; justify-content: center; font-size: xx-large; }
+.fiszka:hover {
+    transform: scale(1.1);
+    background-color: #f8faff;
+}
