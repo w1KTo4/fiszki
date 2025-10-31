@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import "App.css";
+import "./App.css";
 
 export default function App() {
   const [ileInput, setIleInput] = useState("1-10");
