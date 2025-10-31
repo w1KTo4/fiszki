@@ -226,8 +226,8 @@ export default function App() {
           <button onClick={() => zmiana_koloru("Aqua")} className="przycisk2">
             Aqua
           </button>
-          <button onClick={() => zmiana_koloru("Violet")} className="przycisk2">
-            Violet
+          <button onClick={() => zmiana_koloru("Green")} className="przycisk2">
+            Green
           </button>
         </div>
 
@@ -238,7 +238,7 @@ export default function App() {
         </div>
 
         <button className="start" onClick={start}>
-          Start 
+          Start
         </button>
       </div>
 
