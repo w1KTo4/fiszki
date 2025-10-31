@@ -226,7 +226,7 @@ export default function App() {
           <button onClick={() => zmiana_koloru("Aqua")} className="przycisk2">
             Aqua
           </button>
-          <button onClick={() => zmiana_koloru("Green")} className="przycisk2">
+          <button onClick={() => zmiana_koloru("Yellow")} className="przycisk2">
             Green
           </button>
         </div>
